@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>timer</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+ <div class="header-div"><a href="#">w w w . o n l i n e - s t o p w a c h . c o m<a></div>    
+ 
+<div id="cont">
+  <div id="cont2">
+<div id="up-div"><span id="showhrs">00</span>:<span id="showmns">00</span>:<span id="showscs">00</span></div>
+
+</div>
+</div>
+
+<form>
+  <div id="hrmnt">
+  <input id="hrs" value="0:">
+  <input id="mns" value="0:">
+  <input id="scs" value="0" >
+</form>
+
+	  </div>  
+    <p id="milliseconds">000</p> 
+
+           <!-- hidden div-->
+                      <div id="start-clear">
+                       
+<input type="button" onclick="mytest()" id="btnct" value="START" /> 
+
+                        <div id="clear-2">Clear</div>
+                          </div>
+
+        <div id="buttons">
+           <input type="button" onclick=go5(); value="5"></input>
+           <input type="button" onclick=go6(); value="6"></input>
+           <input type="button" onclick=go7(); value="7"></input>
+           <input type="button" onclick=go8(); value="8"></input>
+           <input type="button" onclick=go9(); value="9"></input>
+           <input type="button" onclick=set(); value="set" class="set"></input>
+               
+             </div>
+        </div>  
+        <div id="buttons_2">
+        	<input  type="button" onclick=go0(); value="0"></input>
+           <input type="button" onclick=go(); value="1"></input>
+           <input type="button" onclick=go2(); value="2"></input>
+           <input type="button" onclick=go3(); value="3"></input>
+           <input type="button" onclick=go4(); value="4"></input>
+          
+           <input type="button" onclick=goclear(); value="clear" class="clear"></input>
+           
+        </div>   
+        
+<div class="footer-div">
+ <p id="hidden-p" onclick="goreturn()">Back</p> 
+</div>
+
+
+
+
+<script src="index.js"></script>
+	<script src= "http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+</body>
+</html>
